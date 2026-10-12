@@ -1,0 +1,7 @@
+packages:
+  - '.'
+
+# This app uses the published browser export, not Node inference/image APIs.
+overrides:
+  '@huggingface/transformers>onnxruntime-node': '-'
+  '@huggingface/transformers>sharp': '-'
